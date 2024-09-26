@@ -1,0 +1,145 @@
+/* Home.css */
+.custom-scrollbar-main,
+.custom-scrollbar-sidebar {
+  overflow-y: auto;
+  max-height: calc(100vh - 16px);
+  scrollbar-width: thin;
+  scrollbar-color: rgba(8, 219, 227, 0.8) rgba(244, 246, 248, 0.5);
+}
+
+.custom-scrollbar-main::-webkit-scrollbar,
+.custom-scrollbar-sidebar::-webkit-scrollbar {
+  width: 10px; /* Slightly wider scrollbar for better grip */
+}
+
+.custom-scrollbar-main::-webkit-scrollbar-thumb,
+.custom-scrollbar-sidebar::-webkit-scrollbar-thumb {
+  background-color: rgba(16, 175, 232, 0.8); /* Darker shade for the thumb for better contrast */
+  border-radius: 6px; /* Smoothed corners for a modern look */
+  border: 3px solid rgba(244, 246, 248, 0.5); /* Adding a border for a more defined thumb */
+}
+
+.custom-scrollbar-main::-webkit-scrollbar-track,
+.custom-scrollbar-sidebar::-webkit-scrollbar-track {
+  background-color: rgba(244, 246, 248, 0.5); /* Lighter track color */
+}
+
+.rounded-2xl {
+  border-radius: 1rem;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.shadow-lg {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.bg-slate-400 {
+  background-color: #9ca3af;
+}
+
+.bg-slate-800 {
+  background-color: #1f2937;
+}
+
+.hover\:bg-slate-800 {
+  transition: background-color 0.3s ease;
+}
+
+.hover\:cursor-pointer {
+  cursor: pointer;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.inset-0 {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.bg-gradient-to-b {
+  background: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.5) 100%);
+}
+
+.opacity-50 {
+  opacity: 0.5;
+}
+
+.flex {
+  display: flex;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.bg-white {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.rounded-full {
+  border-radius: 9999px;
+}
+
+.p-2 {
+  padding: 0.5rem;
+}
+
+.text-gray-700 {
+  color: #4b5563;
+}
+
+.w-6 {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.h-6 {
+  height: 1.5rem;
+}
+
+.fill-current {
+  fill: currentColor;
+}
+
+.viewBox {
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  width: 1em;
+  height: 1em;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.mr-2 {
+  margin-right: 0.5rem;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.backdrop-filter {
+  backdrop-filter: blur(10px);
+}
+
+.hover\:backdrop-filter-blur-10px {
+  transition: backdrop-filter 0.3s ease;
+}
