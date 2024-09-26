@@ -21,7 +21,6 @@ This News App is a modern platform for delivering the latest news articles acros
 ![Screenshot 2024-09-26 003748](https://github.com/user-attachments/assets/5f049cbb-53bf-488c-bf89-66a0e73f970e)
 
 
-*(Ensure the `Main.png` file is placed in the `Screenshots` folder.)*
 
 ## Installation
 
